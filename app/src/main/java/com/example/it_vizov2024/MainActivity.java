@@ -10,13 +10,13 @@ import com.example.it_vizov2024.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    private ActivityMainBinding bindinng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        bindinng = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_main);
 
     }
